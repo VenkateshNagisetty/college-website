@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <div class="college-info">
+        <img src="nriit.png" alt="College Logo" class="college-logo">
+        <span class="college-name">NRIIT</span>
+    </div>
+    <ul class="navigation">
+        <li><a href="#">Student</a></li>
+        <li><a href="#">DS-Roadmap</a></li>
+        <li><a href="#">Mini Project</a></li>
+        <li><a href="#">Results</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Notice Board</a></li>
+        <li><a href="#">Certifications</a></li>
+        <li><a href="#"><img src="" alt="Search Icon"></a></li>
+    </ul>
+</div>
+
+<div class="content" >
+    <div class="students-heading">Students</div>
+
+    <div class="separator"></div>
+
+    <div class="buttons-container">
+        <button class="button" id="dsStudentsBtn">DS-Students</button>
+        <button class="button">IT-Students</button>
+    </div>
+</div>
+
+<script>
+    document.getElementById('dsStudentsBtn').addEventListener('click', function() {
+        // Redirect to the DS-Students page
+        window.location.href = 'ds_students.html';
+    });
+</script>
+
+</body>
+</html>
